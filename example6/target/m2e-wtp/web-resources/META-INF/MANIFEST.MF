@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: chunjae
+Build-Jdk: 18.0.2
+Implementation-Title: example6 Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.mavern.ex6
+Implementation-URL: http://www.example.com
+Created-By: Maven Integration for Eclipse
+
