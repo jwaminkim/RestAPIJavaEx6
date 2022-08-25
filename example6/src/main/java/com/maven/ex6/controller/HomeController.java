@@ -1,4 +1,4 @@
-package com.mavern.ex6.controller;
+package com.maven.ex6.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -1,10 +1,11 @@
-package com.mavern.ex6.controller;
+package com.maven.ex6.controller;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Vector;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -54,7 +55,7 @@ public class RestAPIController {
 			*/
 			List<HashMap<String, Object>> resultMapList = new ArrayList<HashMap<String, Object>>();
 	        HashMap<String, Object> resultMap = new HashMap<String, Object>();
-
+        		        
 	        resultMap.put("id", "jwaminkim");
 	        resultMap.put("name", "김좌민");    	
 	        resultMap.put("nick", "kjm");
@@ -62,14 +63,14 @@ public class RestAPIController {
 	        
 	        resultMapList.add(resultMap);
 	        
-	        //resultMap = new HashMap<String, Object>();
-	        resultMap.clear();
-	        /*
+	        resultMap = new HashMap<String, Object>();
+	        //resultMap.clear();
+	        
 	        resultMap.put("id", "doongyookim");
 	        resultMap.put("name", "김동우");    	
 	        resultMap.put("nick", "kdy");
 	        resultMap.put("value", "2");   
-	        */
+	        
 	        resultMapList.add(resultMap);
 	        
 	        String resultVal = mapToJson(resultMapList);
